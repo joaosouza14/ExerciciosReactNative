@@ -1,5 +1,5 @@
-import React from 'react';
-import { Text, View, StyleSheet} from 'react-native';
+import React from "react";
+import { Text, View, StyleSheet } from "react-native";
 
 // import Primeiro from './components/Primeiro.js'
 // import X, { Comp2, Comp3 } from './components/Multi'
@@ -8,11 +8,15 @@ import { Text, View, StyleSheet} from 'react-native';
 // import Botao from './components/Botao'
 // import Contador from './components/Contador'
 // import Pai from './components/direta/Pai';
-import ContadorV2 from './components/contador/ContadorV2';
+// import ContadorV2 from './components/contador/ContadorV2';
+// import ListaProdutos from "./components/produtos/ListaProdutos";
+import ListaProdutosV2 from "./components/produtos/ListaProdutosV2";
 
 export default () => (
   <View style={style.App}>
-    <ContadorV2/>
+    <ListaProdutosV2 />
+    {/* <ListaProdutos /> */}
+    {/* <ContadorV2/> */}
     {/* <Pai /> */}
     {/* <Contador inicial={1}/> */}
     {/* <Botao/> */}
@@ -24,13 +28,13 @@ export default () => (
     <Comp3></Comp3>
     <Comp2></Comp2> */}
   </View>
-)
+);
 
 const style = StyleSheet.create({
-  App:{
+  App: {
     flexGrow: 1,
     justifyContent: "center",
     alignItems: "center",
-    padding: 20
-  }
-})
+    padding: 20,
+  },
+});
