@@ -10,11 +10,21 @@ import { Text, View, StyleSheet } from "react-native";
 // import Pai from './components/direta/Pai';
 // import ContadorV2 from './components/contador/ContadorV2';
 // import ListaProdutos from "./components/produtos/ListaProdutos";
-import ListaProdutosV2 from "./components/produtos/ListaProdutosV2";
+// import ListaProdutosV2 from "./components/produtos/ListaProdutosV2";
+// import DigiteSeuNome from "./components/DigiteSeuNome";
+// import FlexboxV1 from "./components/layout/FlexboxV1";
+// import FlexboxV2 from "./components/layout/FlexboxV2";
+// import FlexboxV3 from "./components/layout/FlexboxV3";
+import Mega from "./components/mega/Mega";
 
 export default () => (
   <View style={style.App}>
-    <ListaProdutosV2 />
+    <Mega qtdNumeros={7} />
+    {/* <FlexboxV3 /> */}
+    {/* <FlexboxV2 /> */}
+    {/* <FlexboxV1 /> */}
+    {/* <DigiteSeuNome /> */}
+    {/* <ListaProdutosV2 /> */}
     {/* <ListaProdutos /> */}
     {/* <ContadorV2/> */}
     {/* <Pai /> */}
